@@ -1,0 +1,41 @@
+# Prefix used for plugin messages
+prefix: "[LittleFly] >> "
+
+# Configuration for particles
+particles:
+  # Indicates if the use of particles is enabled
+  enabled: true
+
+# List of worlds allowed for flight usage
+worlds_whitelist:
+  - world
+  - world_nether
+
+# Interval for sending messages to inform about remaining flight duration
+announcement_intervals:
+  - 10
+  - 5
+  - 3
+  - 2
+  - 1
+
+# Custom plugin messages
+messages:
+  player_only: "&cThis command can only be executed by a player!"
+  tfly_invalid_command: "&cThis command is invalid!"
+  no_permission: "&cYou do not have permission to use this command!"
+  tfly_invalid_usage: "&cIncorrect usage of the command. Usage: /tfly <player>"
+  fly_invalid_usage: "&cIncorrect usage of the command. Usage: /fly <player>"
+  player_not_found: "&cThe specified player is not online!"
+  invalid_duration: "&cDuration must be a valid integer!"
+  flight_enabled: "&aFlight has been enabled!"
+  t_flight_enabled: "&fNow you can fly for &6%time%&f!"
+  t_flight_disabled: "&cFlight has been disabled!"
+  flight_disabled: "&cFlight has been disabled!"
+  flight_duration_remaining: "&aFlight duration remaining: %time%s"
+  action_bar_message: "&aFlight duration remaining: %time%s"
+  list_particles_header: "&6List of available particles:"
+  particles_folder_missing: "&cParticles folder not found or is not a directory!"
+  no_particles_found: "&cNo particle configs found."
+  particle_selected: "&fYou selected &2%particle%&f !"
+  not_in_world: "You are not allowed to use this command in this world!"
